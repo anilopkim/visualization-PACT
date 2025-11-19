@@ -1,0 +1,13 @@
+{
+  "name": "visualization-pact",
+  "version": "1.0.0",
+  "description": "A Neutralinojs minimal app",
+  "main": "resources/js/main.js",
+  "scripts": {
+  "start": "neu run",
+  "build": "neu build",
+  "update": "neu update"
+  },
+  "author": "",
+  "license": "MIT"
+}
