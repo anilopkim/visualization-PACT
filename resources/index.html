@@ -6,21 +6,145 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="centered-bg">
-      <div class="card">
-        <h1>Welcome!</h1>
-        <p id="info">This is a basic Neutralinojs app.</p>
-      </div>
+              <div class="main-layout">
+                <aside class="sidebar-nav">
+                  <nav class="nav-list">
+                    <a class="nav-item active" href="index.html" title="Map">
+                      <span class="nav-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#b6c2e2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/></svg>
+                      </span>
+                    </a>
+                    <a class="nav-item" href="data.html" title="Data">
+                      <span class="nav-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#b6c2e2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="6" height="8"/><rect x="9" y="8" width="6" height="12"/><rect x="15" y="4" width="6" height="16"/></svg>
+                      </span>
+                    </a>
+                    <a class="nav-item" href="settings.html" title="Settings">
+                      <span class="nav-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#b6c2e2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.09a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.09a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                      </span>
+                    </a>
+                  </nav>
+                </aside>
+                <section class="map-section-modern">
+                  <div class="map-canvas-container-modern">
+                    <canvas id="map-canvas"></canvas>
+                    <button id="reset-map-btn" title="Reset map position" style="position:absolute;top:16px;right:16px;z-index:10;background:#232b3e;color:#b6c2e2;border:none;border-radius:4px;padding:8px 14px;cursor:pointer;font-size:15px;box-shadow:0 2px 8px #0003;">Reset View</button>
+                  </div>
+                  <div id="selected-country" class="selected-country-modern"></div>
+                </section>
+              </div>
+            <style>
+                html, body {
+                  height: 100%;
+                  margin: 0;
+                  padding: 0;
+                }
+                body {
+                  min-height: 100vh;
+                  min-width: 100vw;
+                  box-sizing: border-box;
+                  background: #181f2a;
+                }
+                .main-layout {
+                  display: flex;
+                  height: 100vh;
+                  width: 100vw;
+                  overflow: hidden;
+                }
+                .sidebar-nav {
+                  width: 64px;
+                  background: #181f2a;
+                  color: #fff;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  padding: 1.2rem 0 1rem 0;
+                  box-shadow: 2px 0 8px rgba(0,0,0,0.18);
+                  z-index: 2;
+                }
+                .nav-list {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 1.2rem;
+                  width: 100%;
+                }
+                .nav-item {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  color: #b6c2e2;
+                  text-decoration: none;
+                  font-size: 1.5em;
+                  padding: 0.5em 0;
+                  border-left: 3px solid transparent;
+                  transition: background 0.2s, color 0.2s, border-color 0.2s;
+                  width: 100%;
+                  position: relative;
+                }
+                .nav-item.active, .nav-item:hover {
+                  background: #232b3e;
+                  color: #38bdf8;
+                  border-left: 3px solid #38bdf8;
+                }
+                .nav-icon svg {
+                  display: block;
+                  margin: 0 auto;
+                  transition: stroke 0.2s;
+                }
+                .nav-item.active .nav-icon svg,
+                .nav-item:hover .nav-icon svg {
+                  stroke: #38bdf8;
+                }
+                .map-section-modern {
+                  flex: 1;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                  justify-content: stretch;
+                  background: #232b3e;
+                  min-width: 0;
+                  height: 100vh;
+                  position: relative;
+                }
+                .map-canvas-container-modern {
+                  flex: 1;
+                  display: flex;
+                  justify-content: stretch;
+                  align-items: stretch;
+                  width: 100%;
+                  height: 100%;
+                }
+                #map-canvas {
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 0;
+                  box-shadow: none;
+                  background: #1a2332;
+                  display: block;
+                }
+                .selected-country-modern {
+                  position: absolute;
+                  left: 0; right: 0; bottom: 0;
+                  margin: 0 auto 1em auto;
+                  font-size: 1.2em;
+                  color: #38bdf8;
+                  text-align: center;
+                  pointer-events: none;
+                }
+              </style>
+            </style>
     </div>
     <!-- Neutralino.js client. This file is gitignored, 
-        because `neu update` typically downloads it.
-        Avoid copy-pasting it. 
-        -->
-    <script src="/js/neutralino.js"></script>
-    <!-- Your app's source files -->
-    <script src="/js/main.js"></script>
+      because `neu update` typically downloads it.
+      Avoid copy-pasting it. 
+      -->
+    <script src="js/neutralino.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
