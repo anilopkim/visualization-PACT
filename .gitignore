@@ -12,3 +12,6 @@ neutralino.js
 # Neutralinojs related files
 .storage
 *.log
+
+
+.DS_Store
