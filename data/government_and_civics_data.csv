@@ -1,20 +1,20 @@
 Country,Capital,Capital_Coordinates,Government_Type,Suffrage_Age
 AFGHANISTAN,Kabul,"34 31 N, 69 11 E",Theocracy,18.0
-AKROTIRI,Episkopi Cantonment,"34 40 N, 32 51 E",,
+AKROTIRI,Episkopi Cantonment,"34 40 N, 32 51 E",Monarchy,18.0
 ALBANIA,Tirana,"41 19 N, 19 49 E",Republic,18.0
 ALGERIA,Algiers,"36 45 N, 3 03 E",Republic,18.0
 AMERICAN SAMOA,Pago Pago,"14 16 S, 170 42 W",Republic,18.0
 ANDORRA,Andorra la Vella,"42 30 N, 1 31 E",Democracy,18.0
 ANGOLA,Luanda,"8 50 S, 13 13 E",Republic,18.0
 ANGUILLA,The Valley,"18 13 N, 63 03 W",Democracy,18.0
-ANTARCTICA,,,Other,
+ANTARCTICA,,,Other,18.0
 ANTIGUA AND BARBUDA,Saint John’s,"17 07 N, 61 51 W",Democracy,18.0
-ARCTIC OCEAN,,,,
-ARGENTINA,Buenos Aires,"34 36 S, 58 22 W",Republic,
+ARCTIC OCEAN,,,Other, 18.0
+ARGENTINA,Buenos Aires,"34 36 S, 58 22 W",Republic,16.0
 ARMENIA,Yerevan,"40 10 N, 44 30 E",Democracy,18.0
-ARUBA,Oranjestad,"12 31 N, 70 02 W",Democracy,
-ASHMORE AND CARTIER ISLANDS,,,,
-ATLANTIC OCEAN,,,,
+ARUBA,Oranjestad,"12 31 N, 70 02 W",Democracy, 18.0
+ASHMORE AND CARTIER ISLANDS,Canberra,"35 16 S, 149 08 E",democracy,18.0
+ATLANTIC OCEAN,,,Other, 18.0
 AUSTRALIA,Canberra,"35 16 S, 149 08 E",Democracy,18.0
 AUSTRIA,Vienna,"48 12 N, 16 22 E",Republic,16.0
 AZERBAIJAN,Baku,"40 23 N, 49 52 E",Republic,18.0
@@ -31,8 +31,9 @@ BHUTAN,Thimphu,"27 28 N, 89 38 E",Monarchy,18.0
 BOLIVIA,La Paz,"16 30 S, 68 09 W",Republic,18.0
 BOSNIA AND HERZEGOVINA,Sarajevo,"43 52 N, 18 25 E",Republic,18.0
 BOTSWANA,Gaborone,"24 38 S, 25 54 E",Republic,18.0
-BOUVET ISLAND,,,,
+BOUVET ISLAND,,,Monarchy,18.0
 BRAZIL,Brasília,"15 47 S, 47 55 W",Republic,
+BRITISH INDIAN OCEAN TERRITORY,Diego Garcia,"7 18 S, 72 25 E",Territory,18.0
 BRITISH VIRGIN ISLANDS,Road Town,"18 25 N, 64 37 W",Democracy,18.0
 BRUNEI,Bandar Seri Begawan,"4 53 N, 114 56 E",Monarchy,18.0
 BULGARIA,Sofia,"42 41 N, 23 19 E",Republic,18.0
@@ -49,26 +50,26 @@ CHAD,N’Djamena,"12 06 N, 15 02 E",Republic,18.0
 CHILE,Santiago; note - Valparaiso is the seat of the national legislature,"33 27 S, 70 40 W",Republic,18.0
 CHINA,Beijing,"39 55 N, 116 23 E",Communist,18.0
 CHRISTMAS ISLAND,The Settlement,"10 25 S, 105 43 E",Territory,18.0
-CLIPPERTON ISLAND,,,,
+CLIPPERTON ISLAND,,"48 52 N, 2 20 E",Republic,18.0
 COCOS (KEELING) ISLANDS,West Island,"12 10 S, 96 50 E",Territory,18.0
 COLOMBIA,Bogota,"4 36 N, 74 05 W",Republic,18.0
 COMOROS,Moroni,"11 42 S, 43 14 E",Republic,18.0
 "CONGO, DEMOCRATIC REPUBLIC OF THE",Kinshasa,"4 19 S, 15 18 E",Republic,18.0
 "CONGO, REPUBLIC OF THE",Brazzaville,"4 15 S, 15 17 E",Republic,18.0
 COOK ISLANDS,Avarua,"21 12 S, 159 46 W",Democracy,18.0
-CORAL SEA ISLANDS,,,,
+CORAL SEA ISLANDS,Canberra,"35 16 S, 149 08 E",Democracy,18.0
 COSTA RICA,Yamoussoukro,"6 49 N, 5 16 W",Republic,18.0
 CROATIA,Zagreb,"45 48 N, 16 00 E",Republic,18.0
 CUBA,Havana,"23 07 N, 82 21 W",Communist,16.0
 CURACAO,Willemstad,"12 06 N, 68 55 W",Democracy,18.0
-CYPRUS,,,Republic,
+CYPRUS,Nicosia,"35 10 N, 33 22 E",Republic,18.0
 CZECHIA,Prague,"50 05 N, 14 28 E",Republic,18.0
 DENMARK,Copenhagen,"55 40 N, 12 35 E",Monarchy,18.0
 DHEKELIA,Episkopi Cantonment,"34 40 N, 32 51 E",,
 DJIBOUTI,Djibouti,"11 35 N, 43 09 E",Republic,18.0
 DOMINICA,Roseau,"15 18 N, 61 24 W",Republic,18.0
 DOMINICAN REPUBLIC,Port-au-Prince,"18 32 N, 72 20 W",Republic,18.0
-ECUADOR,Quito,"0 13 S, 78 30 W",Republic,
+ECUADOR,Quito,"0 13 S, 78 30 W",Republic, 16.0
 EGYPT,Cairo,"30 03 N, 31 15 E",Republic,18.0
 EL SALVADOR,San Salvador,"13 42 N, 89 12 W",Republic,18.0
 EQUATORIAL GUINEA,"Malabo; note - Malabo is on the island of Bioko; in 2017, some governmental offices began to move to a new capital of Ciudad de la","3 45 N, 8 47 E",Republic,18.0
@@ -83,10 +84,10 @@ FIJI,Suva,"18 08 S, 178 25 E",Republic,18.0
 FINLAND,Helsinki,"60 10 N, 24 56 E",Republic,18.0
 FRANCE,Madrid,"40 24 N, 3 41 W",Monarchy,18.0
 FRENCH POLYNESIA,Papeete,"17 32 S, 149 34 W",Democracy,18.0
-FRENCH SOUTHERN AND ANTARCTIC LANDS,,,,
+FRENCH SOUTHERN AND ANTARCTIC LANDS,,"48 52 N, 2 20 E",Republic,18.0
 GABON,Libreville,"0 23 N, 9 27 E",Republic,18.0
 "GAMBIA, THE",Banjul,"13 27 N, 16 34 W",Republic,18.0
-GAZA STRIP,,,,
+GAZA STRIP,Gaza City,"31 30 N, 34 28 E",Other,18.0
 GEORGIA,Tbilisi,"41 41 N, 44 50 E",Republic,18.0
 GERMANY,Berlin,"52 31 N, 13 24 E",Republic,18.0
 GHANA,Accra,"5 33 N, 0 13 W",Republic,18.0
@@ -100,14 +101,15 @@ GUERNSEY,Saint Peter Port,"49 27 N, 2 32 W",Democracy,16.0
 GUINEA,Conakry,"9 30 N, 13 42 W",Republic,18.0
 GUINEA-BISSAU,Bissau,"11 51 N, 15 35 W",Republic,18.0
 GUYANA,Georgetown,"6 48 N, 58 09 W",Republic,18.0
-HEARD ISLAND AND MCDONALD ISLANDS,,,,
-HOLY SEE (VATICAN CITY),Vatican City,"41 54 N, 12 27 E",Monarchy,
+HAITI,Port-au-Prince,"18 32 N, 72 20 W",Republic,18.0
+HEARD ISLAND AND MCDONALD ISLANDS,Canberra,"35 16 S, 149 08 E",Democracy,18.0
+HOLY SEE (VATICAN CITY),Vatican City,"41 54 N, 12 27 E",Monarchy, 
 HONDURAS,"Tegucigalpa; note - article eight of the Honduran constitution states that the twin cities of Tegucigalpa and Comayaguela, jointly,","14 06 N, 87 13 W",Republic,18.0
-HONG KONG,,,Republic,18.0
+HONG KONG, Hong Kong, "22 17 N, 114 09 E",Republic,18.0
 HUNGARY,Budapest,"47 30 N, 19 05 E",Republic,18.0
 ICELAND,Reykjavik,"64 09 N, 21 57 W",Republic,18.0
 INDIA,New Delhi,"28 36 N, 77 12 E",Republic,18.0
-INDIAN OCEAN,,,,
+INDIAN OCEAN,,,Other,18.0
 INDONESIA,Jakarta; note - Indonesian lawmakers on 18 January 2022 approved the relocation of the country’s capital from Jakarta to a site on,"6 10 S, 106 49 E",Republic,17.0
 IRAN,Tehran,"35 42 N, 51 25 E",Republic,18.0
 IRAQ,Baghdad,"33 20 N, 44 24 E",Republic,18.0
@@ -116,7 +118,7 @@ ISLE OF MAN,Douglas,"54 09 N, 4 29 W",Democracy,16.0
 ISRAEL,Jerusalem; note - the US recognized Jerusalem as Israel’s capital in December 2017 without taking a position on the specific,"31 46 N, 35 14 E",Democracy,18.0
 ITALY,Rome,"41 54 N, 12 29 E",Republic,18.0
 JAMAICA,Kingston,"18 00 N, 76 48 W",Democracy,18.0
-JAN MAYEN,,,,
+JAN MAYEN,,,Other,18.0
 JAPAN,Tokyo,"35 41 N, 139 45 E",Monarchy,18.0
 JERSEY,Saint Helier,"49 11 N, 2 06 W",Democracy,16.0
 JORDAN,Amman,"31 57 N, 35 56 E",Monarchy,18.0
@@ -135,9 +137,9 @@ LESOTHO,Maseru,"29 19 S, 27 29 E",Monarchy,18.0
 LIBERIA,Monrovia,"6 18 N, 10 48 W",Republic,18.0
 LIBYA,Tripoli,"32 53 N, 13 10 E",Other,18.0
 LIECHTENSTEIN,Vaduz,"47 08 N, 9 31 E",Monarchy,18.0
-LITHUANIA,,,,
+LITHUANIA,Vilnius,"54 41 N, 25 19 E",Republic,18.0
 LUXEMBOURG,Luxembourg,"49 36 N, 6 07 E",Monarchy,18.0
-MACAU,,,Republic,18.0
+MACAU,Macau,"22 10 N, 113 33 E",Other,18.0
 MADAGASCAR,Antananarivo,"18 55 S, 47 31 E",Republic,18.0
 MALAWI,Lilongwe,"13 58 S, 33 47 E",Republic,18.0
 MALAYSIA,Kuala Lumpur; note - nearby Putrajaya is referred to as a federal government administrative center but not the capital; Parliament,"3 10 N, 101 42 E",Monarchy,18.0
@@ -153,14 +155,16 @@ MOLDOVA,Chisinau in Romanian,"47 00 N, 28 51 E",Republic,18.0
 MONACO,Monaco,"43 44 N, 7 25 E",Monarchy,18.0
 MONGOLIA,Ulaanbaatar,"47 55 N, 106 55 E",Republic,18.0
 MONTENEGRO,Podgorica; note - Cetinje retains the status of “Old Royal Capital”,"42 26 N, 19 16 E",Republic,18.0
-MONTSERRAT,,,,
+MONTSERRAT,Plymouth,"16 42 N, 62 13 W",monarchy,18.0
 MOROCCO,Rabat,"34 01 N, 6 49 W",Monarchy,18.0
 MOZAMBIQUE,Maputo,"25 57 S, 32 35 E",Republic,18.0
+NAMIBIA,Windhoek,"22 34 S, 17 05 E",Republic,18.0
 NAURU,no official capital; government offices in the Yaren District,,Republic,20.0
-NAVASSA ISLAND,,,,
+NAVASSA ISLAND,,,"18 25 N, 75 00 W",Other,18.0
 NEPAL,Kathmandu,"27 43 N, 85 19 E",Republic,18.0
 NETHERLANDS,Amsterdam; note - The Hague is the seat of government,"52 21 N, 4 55 E",Monarchy,18.0
 NEW CALEDONIA,Noumea,"22 16 S, 166 27 E",Democracy,18.0
+NEW ZEALAND,Wellington,"41 17 S, 174 47 E",Democracy,18.0
 NICARAGUA,Managua,"12 08 N, 86 15 W",Republic,16.0
 NIGER,Niamey,"13 31 N, 2 07 E",Republic,18.0
 NIGERIA,Abuja,"9 05 N, 7 32 E",Republic,18.0
@@ -170,15 +174,15 @@ NORTH MACEDONIA,Skopje,"42 00 N, 21 26 E",Republic,18.0
 NORTHERN MARIANA ISLANDS,Saipan,"15 12 N, 145 45 E",Republic,18.0
 NORWAY,Oslo,"59 55 N, 10 45 E",Monarchy,18.0
 OMAN,Muscat,"23 37 N, 58 35 E",Monarchy,21.0
-PACIFIC OCEAN,,,,
+PACIFIC OCEAN,,,Other,18.0
 PAKISTAN,Islamabad,"33 41 N, 73 03 E",Republic,18.0
 PALAU,Ngerulmud,"7 30 N, 134 37 E",Republic,18.0
 PANAMA,Panama City,"8 58 N, 79 32 W",Republic,18.0
 PAPUA NEW GUINEA,Port Moresby,"9 27 S, 147 11 E",Democracy,18.0
-PARACEL ISLANDS,,,,
+PARACEL ISLANDS,,"39 55 N, 116 23 E",Communist,18.0
 PARAGUAY,Asuncion,"25 16 S, 57 40 W",Republic,18.0
 PERU,Lima,"12 03 S, 77 03 W",Republic,18.0
-PHILIPPINES,,,,
+PHILIPPINES,Manila,"14 35 N, 120 58 E",Republic,18.0
 PITCAIRN ISLANDS,Adamstown,"25 04 S, 130 05 W",Democracy,18.0
 POLAND,Warsaw,"52 15 N, 21 00 E",Republic,18.0
 PORTUGAL,Lisbon,"38 43 N, 9 08 W",Republic,18.0
@@ -209,9 +213,11 @@ SLOVENIA,Ljubljana,"46 03 N, 14 31 E",Republic,18.0
 SOLOMON ISLANDS,Honiara,"9 26 S, 159 57 E",Democracy,21.0
 SOMALIA,Mogadishu,"2 04 N, 45 20 E",Republic,18.0
 SOUTH AFRICA,Pretoria,"25 42 S, 28 13 E",Republic,18.0
-SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS,,,,
+SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS,King Edward Point,"54 09 S, 36 30 W", Monarchy,18.0
 SOUTH SUDAN,Juba,"04 51 N, 31 37 E",Republic,18.0
-SOUTHERN OCEAN,,,,
+SOUTHERN OCEAN,,,Other,18.0
+SPAIN,Madrid,"40 24 N, 3 41 W",Monarchy,18.0
+SPRATLY ISLANDS,,"10 30 N, 114 00 E",Other,18.0
 SRI LANKA,Colombo,"6 55 N, 79 50 E",Republic,18.0
 SUDAN,Khartoum,"15 36 N, 32 32 E",Republic,17.0
 SURINAME,Paramaribo,"5 50 N, 55 10 W",Republic,18.0
@@ -238,17 +244,17 @@ UKRAINE,Kyiv,"50 26 N, 30 31 E",Republic,18.0
 UNITED ARAB EMIRATES,Abu Dhabi,"24 28 N, 54 22 E",Other,
 UNITED KINGDOM,London,"51 30 N, 0 05 W",Monarchy,18.0
 UNITED STATES,"Washington, DC","38 53 N, 77 02 W",Republic,18.0
-UNITED STATES PACIFIC ISLAND WILDLIFE REFUGES,,,,
+UNITED STATES PACIFIC ISLAND WILDLIFE REFUGES,,,"18 09 N, 169 52 W",Other,18.0
 URUGUAY,Montevideo,"34 51 S, 56 10 W",Republic,18.0
 UZBEKISTAN,Tashkent,"41 19 N, 69 15 E",Republic,18.0
 VANUATU,Port-Vila,"17 44 S, 168 19 E",Republic,18.0
 VENEZUELA,Caracas,"10 29 N, 66 52 W",Republic,18.0
 VIETNAM,Hanoi,"21 02 N, 105 51 E",Communist,18.0
 VIRGIN ISLANDS,Charlotte Amalie,"18 21 N, 64 56 W",Republic,18.0
-WAKE ISLAND,,,,
+WAKE ISLAND,,,"19 17 N, 166 37 E",Other,18.0
 WALLIS AND FUTUNA,Mata-Utu,"13 57 S, 171 56 W",Democracy,18.0
-WEST BANK,,,,
-WORLD,,,,
+WEST BANK,Ramallah,"31 54 N, 35 12 E",Other,18.0
+WORLD,,,"0 00 N, 0 00 E",Other,18.0
 YEMEN,Sanaa,"15 21 N, 44 12 E",Other,18.0
 ZAMBIA,Lusaka,"15 25 S, 28 17 E",Republic,18.0
 ZIMBABWE,Harare,"17 49 S, 31 02 E",Republic,18.0
